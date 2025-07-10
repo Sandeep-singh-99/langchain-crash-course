@@ -1,4 +1,5 @@
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
@@ -7,7 +8,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 st.set_page_config(page_title="Simple Add Math Operation", page_icon=":robot:")
 st.title("Simple Add Math Operation with Google Generative AI")
@@ -20,7 +21,7 @@ prompt = ChatPromptTemplate.from_messages([
 ]).partial(input_text=input_text)
 
 
-llm = ChatOpenAI(model="gpt-4o-mini")
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 output_parser = StrOutputParser()
 
 chain = prompt | llm | output_parser
