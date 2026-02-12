@@ -19,4 +19,4 @@ while True:
     chat_history.append(AIMessage(content=results.content))
     print(f"AI: {results.content}")
 
-print("Chat history", chat_history)
+print("Chat history", [message.content for message in chat_history])
