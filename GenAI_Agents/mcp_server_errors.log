@@ -1,0 +1,8 @@
+[03/09/26 14:36:41] INFO     Processing request of type           server.py:720
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.coingecko.com/api/v3/s                
+                             imple/price?ids=bitcoin&vs_currenc                
+                             ies=usd "HTTP/1.1 200 OK"                         
+                    INFO     Processing request of type           server.py:720
+                             ListToolsRequest                                  
