@@ -1,0 +1,100 @@
+{
+  "events": [
+    {
+      "id": "evt_001",
+      "summary": "Data Structures and Algorithms - Lecture",
+      "description": "Weekly lecture covering Graph algorithms and BFS/DFS traversal",
+      "location": "Room 204, CS Building",
+      "start": {
+        "dateTime": "2026-03-16T09:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-03-16T10:30:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "type": "lecture",
+      "course_id": "CS301"
+    },
+    {
+      "id": "evt_002",
+      "summary": "Machine Learning - Lab Session",
+      "description": "Hands-on session: Implementing Linear Regression from scratch using NumPy",
+      "location": "ML Lab, CS Building",
+      "start": {
+        "dateTime": "2026-03-16T14:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-03-16T16:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "type": "lab",
+      "course_id": "CS350"
+    },
+    {
+      "id": "evt_003",
+      "summary": "Study Group - Linear Algebra",
+      "description": "Group revision session for upcoming Linear Algebra quiz on eigenvalues",
+      "location": "Library Room 3B",
+      "start": {
+        "dateTime": "2026-03-17T11:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-03-17T13:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "type": "study_group",
+      "course_id": "MATH201"
+    },
+    {
+      "id": "evt_004",
+      "summary": "Software Engineering - Sprint Review",
+      "description": "Team presentation of sprint deliverables. Bring demo-ready build.",
+      "location": "Seminar Hall B",
+      "start": {
+        "dateTime": "2026-03-18T10:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-03-18T11:30:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "type": "presentation",
+      "course_id": "CS410"
+    },
+    {
+      "id": "evt_005",
+      "summary": "Machine Learning - Midterm Exam",
+      "description": "Covers all topics up to and including neural networks. Closed book.",
+      "location": "Exam Hall 1",
+      "start": {
+        "dateTime": "2026-03-19T09:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-03-19T12:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "type": "exam",
+      "course_id": "CS350"
+    },
+    {
+      "id": "evt_006",
+      "summary": "Office Hours - Dr. Priya Sharma (CS301)",
+      "description": "Weekly office hours for Data Structures. Bring questions on graph problems.",
+      "location": "Faculty Room 112",
+      "start": {
+        "dateTime": "2026-03-20T15:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-03-20T16:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "type": "office_hours",
+      "course_id": "CS301"
+    }
+  ]
+}

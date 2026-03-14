@@ -1,0 +1,74 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Complete Machine Learning Assignment 3",
+      "notes": "Implement K-Means clustering and compare performance with DBSCAN on the provided dataset. Submit Jupyter notebook + report.",
+      "status": "needsAction",
+      "due": "2026-03-18T23:59:00+05:30",
+      "course_id": "CS350",
+      "priority": "high",
+      "links": [
+        { "type": "assignment_portal", "url": "http://lms.university.edu/cs350/a3" }
+      ]
+    },
+    {
+      "id": "task_002",
+      "title": "Study for Machine Learning Midterm",
+      "notes": "Review lecture slides on supervised learning, neural networks, and regularization. Complete 2 past papers.",
+      "status": "needsAction",
+      "due": "2026-03-18T22:00:00+05:30",
+      "course_id": "CS350",
+      "priority": "high",
+      "subtasks": [
+        "Revise Logistic Regression",
+        "Revise SVMs",
+        "Revise Neural Networks - backpropagation",
+        "Solve 2019 and 2020 midterm papers"
+      ]
+    },
+    {
+      "id": "task_003",
+      "title": "Data Structures - Graph Problems Set",
+      "notes": "Solve 10 LeetCode graph problems (BFS/DFS). Focus on shortest path and cycle detection.",
+      "status": "needsAction",
+      "due": "2026-03-17T23:59:00+05:30",
+      "course_id": "CS301",
+      "priority": "medium",
+      "links": [
+        { "type": "leetcode", "url": "https://leetcode.com/tag/graph/" }
+      ]
+    },
+    {
+      "id": "task_004",
+      "title": "Linear Algebra - Eigenvalue Quiz Preparation",
+      "notes": "Review eigenvalues, eigenvectors, and diagonalization. Complete textbook exercises 6.1–6.4.",
+      "status": "needsAction",
+      "due": "2026-03-17T09:00:00+05:30",
+      "course_id": "MATH201",
+      "priority": "medium"
+    },
+    {
+      "id": "task_005",
+      "title": "Software Engineering - Sprint Demo Preparation",
+      "notes": "Prepare a 10-minute demo of the user authentication module. Ensure the build is stable and deploy to staging server.",
+      "status": "needsAction",
+      "due": "2026-03-18T08:00:00+05:30",
+      "course_id": "CS410",
+      "priority": "high",
+      "team_members": ["Alex Johnson", "Riya Patel", "Sam Lee"]
+    },
+    {
+      "id": "task_006",
+      "title": "Apply for Summer Internship - Google STEP",
+      "notes": "Complete and submit application on Google Careers. Attach updated resume and cover letter.",
+      "status": "needsAction",
+      "due": "2026-03-20T23:59:00+05:30",
+      "course_id": null,
+      "priority": "high",
+      "links": [
+        { "type": "application_portal", "url": "https://careers.google.com/programs/step/" }
+      ]
+    }
+  ]
+}

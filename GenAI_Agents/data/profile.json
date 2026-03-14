@@ -1,0 +1,74 @@
+{
+  "profiles": [
+    {
+      "id": "student_123",
+      "personal_info": {
+        "name": "Alex Johnson",
+        "email": "alex.johnson@university.edu",
+        "major": "Computer Science",
+        "academic_year": "3rd Year",
+        "gpa": 3.6
+      },
+      "academic_info": {
+        "current_courses": [
+          {
+            "id": "CS301",
+            "name": "Data Structures and Algorithms",
+            "instructor": "Dr. Priya Sharma",
+            "credits": 4,
+            "current_grade": "A-",
+            "grade_percentage": 88.5
+          },
+          {
+            "id": "CS350",
+            "name": "Machine Learning",
+            "instructor": "Dr. Robert Chen",
+            "credits": 3,
+            "current_grade": "B+",
+            "grade_percentage": 85.0
+          },
+          {
+            "id": "MATH201",
+            "name": "Linear Algebra",
+            "instructor": "Prof. Sarah Williams",
+            "credits": 3,
+            "current_grade": "A",
+            "grade_percentage": 92.0
+          },
+          {
+            "id": "CS410",
+            "name": "Software Engineering",
+            "instructor": "Dr. Michael Torres",
+            "credits": 3,
+            "current_grade": "B+",
+            "grade_percentage": 86.0
+          }
+        ],
+        "completed_courses": [
+          { "id": "CS101", "name": "Intro to Programming", "grade": "A" },
+          { "id": "CS201", "name": "Object Oriented Programming", "grade": "A-" },
+          { "id": "MATH101", "name": "Calculus I", "grade": "B+" }
+        ]
+      },
+      "learning_preferences": {
+        "learning_style": {
+          "primary": "Visual",
+          "secondary": "Reading/Writing",
+          "notes": "Prefers diagrams, flowcharts, and structured notes over long text"
+        },
+        "study_patterns": {
+          "preferred_times": ["morning", "late_evening"],
+          "session_duration_minutes": 90,
+          "break_interval_minutes": 25,
+          "preferred_environment": "quiet",
+          "tools": ["Anki flashcards", "mind maps", "coding practice", "YouTube lectures"]
+        }
+      },
+      "goals": {
+        "short_term": "Improve Machine Learning grade before midterms",
+        "long_term": "Land a software engineering internship by Summer 2026",
+        "target_gpa": 3.8
+      }
+    }
+  ]
+}
