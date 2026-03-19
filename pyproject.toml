@@ -8,8 +8,11 @@ dependencies = [
     "dotenv>=0.9.9",
     "fastapi>=0.135.1",
     "langchain>=1.2.12",
+    "langchain-core>=1.2.19",
     "langchain-google-genai>=4.2.1",
+    "langchain-huggingface>=1.2.1",
     "langgraph>=1.1.2",
+    "pdfplumber>=0.11.9",
     "streamlit>=1.55.0",
     "transformers>=5.3.0",
 ]
