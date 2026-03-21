@@ -5,14 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "dotenv>=0.9.9",
     "fastapi>=0.135.1",
+    "google-api-python-client>=2.193.0",
     "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
     "langchain-core>=1.2.19",
     "langchain-google-genai>=4.2.1",
+    "langchain-groq>=1.1.2",
     "langchain-huggingface>=1.2.1",
     "langgraph>=1.1.2",
+    "lxml>=6.0.2",
     "pdfplumber>=0.11.9",
     "streamlit>=1.55.0",
+    "tavily-python>=0.7.23",
     "transformers>=5.3.0",
 ]
