@@ -1,0 +1,13 @@
+[project]
+name = "ytrag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.19",
+    "pymupdf>=1.27.2.3",
+    "pypdf>=6.12.2",
+]
