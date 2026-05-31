@@ -23,3 +23,8 @@ dependencies = [
     "tavily-python>=0.7.23",
     "transformers>=5.3.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "MCPDEMOLANGCHAIN",
+]
