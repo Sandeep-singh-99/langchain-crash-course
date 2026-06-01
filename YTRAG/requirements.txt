@@ -5,3 +5,4 @@ pypdf
 pymupdf
 sentence-transformers
 chromadb
+langchain-groq
